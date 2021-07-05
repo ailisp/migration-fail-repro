@@ -1,0 +1,12 @@
+[package]
+name = "migration-fail-repro"
+version = "0.1.0"
+authors = ["bo <bo@nearprotocol.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+borsh = "0.8.1"
+near-primitives = {git = "https://github.com/near/nearcore", rev="98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"}
+near-primitives-core = {git = "https://github.com/near/nearcore", rev="98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"}
