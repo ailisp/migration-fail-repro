@@ -533,7 +533,7 @@ dependencies = [
 [[package]]
 name = "near-crypto"
 version = "0.1.0"
-source = "git+https://github.com/near/nearcore?rev=98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0#98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"
+source = "git+https://github.com/near/nearcore?rev=168d48798dce835e8339861e24ba86afaaa632ca#168d48798dce835e8339861e24ba86afaaa632ca"
 dependencies = [
  "arrayref",
  "blake2",
@@ -558,7 +558,7 @@ dependencies = [
 [[package]]
 name = "near-primitives"
 version = "0.1.0"
-source = "git+https://github.com/near/nearcore?rev=98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0#98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"
+source = "git+https://github.com/near/nearcore?rev=168d48798dce835e8339861e24ba86afaaa632ca#168d48798dce835e8339861e24ba86afaaa632ca"
 dependencies = [
  "base64 0.13.0",
  "borsh",
@@ -589,7 +589,7 @@ dependencies = [
 [[package]]
 name = "near-primitives-core"
 version = "0.1.0"
-source = "git+https://github.com/near/nearcore?rev=98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0#98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"
+source = "git+https://github.com/near/nearcore?rev=168d48798dce835e8339861e24ba86afaaa632ca#168d48798dce835e8339861e24ba86afaaa632ca"
 dependencies = [
  "base64 0.11.0",
  "borsh",
@@ -606,7 +606,7 @@ dependencies = [
 [[package]]
 name = "near-rpc-error-core"
 version = "0.1.0"
-source = "git+https://github.com/near/nearcore?rev=98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0#98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"
+source = "git+https://github.com/near/nearcore?rev=168d48798dce835e8339861e24ba86afaaa632ca#168d48798dce835e8339861e24ba86afaaa632ca"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -617,7 +617,7 @@ dependencies = [
 [[package]]
 name = "near-rpc-error-macro"
 version = "0.1.0"
-source = "git+https://github.com/near/nearcore?rev=98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0#98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"
+source = "git+https://github.com/near/nearcore?rev=168d48798dce835e8339861e24ba86afaaa632ca#168d48798dce835e8339861e24ba86afaaa632ca"
 dependencies = [
  "near-rpc-error-core",
  "proc-macro2",
@@ -630,7 +630,7 @@ dependencies = [
 [[package]]
 name = "near-vm-errors"
 version = "3.0.0"
-source = "git+https://github.com/near/nearcore?rev=98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0#98bdeb1bb4501e545aeeef31f646d03b1e3a0aa0"
+source = "git+https://github.com/near/nearcore?rev=168d48798dce835e8339861e24ba86afaaa632ca#168d48798dce835e8339861e24ba86afaaa632ca"
 dependencies = [
  "borsh",
  "hex",

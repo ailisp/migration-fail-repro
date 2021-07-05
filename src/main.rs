@@ -28,6 +28,7 @@ pub struct OldExecutionOutcomeWithIdAndProof {
 
 fn main() {
     let value = std::fs::read("h6QEnvsiX5HcgEqKt5PNLKkm4ztZHM9BxYFmEhw6pxf").unwrap();
+    // Also try with ExecutionOutcomeWithIdAndProof of master nearcore
     let old_outcomes = Vec::<OldExecutionOutcomeWithIdAndProof>::try_from_slice(&value)
         .expect("BorshDeserialize should not fail");
 }
